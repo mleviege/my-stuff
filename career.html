@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">  
+        
+    </head>
+    <body>
+        <div id="navbar">
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="career.html">Career/Statistics</a></li>
+            </ul>
+            
+       </div>
+  <div class="hero-image">
+  <div class="hero-text">
+    <h1>Matthew Saad Muhammad</h1>
+   <h1>Career/Statistics</h1>
+      </div>
+</div>
+       
+        <p id="dad">Saad Muhammad had a relatively short amateur career, consisting of only 20 amateur bouts. He won the Trenton (NJ) Golden Gloves in 1973 and turned pro the following year.Saad Muhammad began to box professionally in 1974, winning his first fight with a second-round knockout win against Billy Early. He posted seven more wins that year before suffering his first loss at the hands of Wayne McGee by a decision in six rounds.</p>
+        <ul id="career" style="list-style-type: none">
+            <li><b>Name</b>: Mattheew Saad Muhammad</li>
+            <li><b>Nickname</b>: Miracle Matthew</li>
+            <li><b>Weight</b>: Light Heaveyweight</li>
+            <li><b>Height</b>: 	5 ft 11 in (180 cm)</li>
+            <li><b>Reach	</b>:	75 in (191 cm)
+ </li>
+            <li><b>Total fights</b>: 68</li>
+            <li><b>Wins</b>: 49</li>
+            <li><b>Wins by KO</b>: 35</li>
+            <li><b>Losses</b>:16 </li>
+        </ul>
+        
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="http://www.boxing.com/images/sized/images/articles/matt_photo_copy2-530x317.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYpXVeBgSjEaHjj8OHHmXrwqpECPverm-H20ZJEdQosf1sieGO" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="IMG_1639.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+    
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVN9SAbwK9cpfQYY3e69iMnVJuL6hzt2fYx_ra9k79T0ytRGCFA" style="width:80%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+ <script>
+     var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}   
+ </script>       
+        
+        
+<footer>
+  <p class="footer"><strong>Note:</strong>"I Love To Fight"</p>
+  
+</footer>
+    </body>
+    
+
+
+    
+<html>
+
+
+
+
